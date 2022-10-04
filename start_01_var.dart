@@ -54,5 +54,6 @@ void late_variables(){
   const list = [i as int]; // Use a typecast.
   const map = {if (i is int) i: 'int'}; // Use is and collection if.
   const set = {if (list is List<int>) ...list}; // ...and a spread.
+  
 
 }
